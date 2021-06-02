@@ -11,7 +11,8 @@ class Truck: Vehicle {
   private var volumeOfCubeVan: Double
 
   // Constructor
-  init(licensePlateNumber: String, colour: String, maxSpeed: Int, numberOfTires: Int, volumeOfCubeVan: Double) {
+  init(licensePlateNumber: String, colour: String, maxSpeed: Int,
+       numberOfTires: Int, volumeOfCubeVan: Double) {
     self.licensePlateNumber = licensePlateNumber
     self.volumeOfCubeVan = volumeOfCubeVan
     super.init(colour: colour, maxSpeed: maxSpeed, numberOfTires: numberOfTires)

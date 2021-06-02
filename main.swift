@@ -27,7 +27,9 @@ do {
   guard let volumeOfCubeVan = Double(readLine()!) else {
     throw InvalidInputError.invalidInput
   }
-  let myTruck = Truck(licensePlateNumber: licensePlateNumber, colour: colour, maxSpeed: truckMaxSpeed, numberOfTires: numberOfTires, volumeOfCubeVan: volumeOfCubeVan)
+  let myTruck = Truck(licensePlateNumber: licensePlateNumber, colour: colour,
+                      maxSpeed: truckMaxSpeed, numberOfTires: numberOfTires,
+                      volumeOfCubeVan: volumeOfCubeVan)
 
   print("\nBike:")
   print("Enter the colour: ", terminator:"")
